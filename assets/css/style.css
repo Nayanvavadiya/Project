@@ -86,6 +86,10 @@ body {
     font-size: 14px;
 }
 
+.header-option {
+    margin-top: 20px;
+}
+
 .header-button {
     background-color: #F8F8F8;
     border: 1px solid #EBEBEB;
@@ -96,6 +100,7 @@ body {
     font-weight: 600;
     color: #192647;
     text-decoration: none;
+    margin-top: 6px;
 }
 
 /*-------------------------------------------------------------------------*/
