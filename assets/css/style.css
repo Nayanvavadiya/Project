@@ -6,12 +6,18 @@
 
 :root {
     --primary: #EFEFEF;
+    --font-Montserrat: "Montserrat", sans-serif;
+    --font-pay:"Playfair Display", serif;
 }
 
+
 body {
-    font-family: Arial, sans-serif;
+    /* font-family: var(--font-Montserrat); */
     background-color: #ffffff;
     position: relative;
+    /* font-size: 16px; */
+    /* overflow-x: hidden; */
+
 }
 
 .container {
@@ -51,6 +57,7 @@ body {
     text-transform: capitalize;
     font-weight: 300;
     text-decoration: none;
+    font-family: var(--font-pay);
 }
 
 .heading-span {
@@ -79,9 +86,7 @@ body {
     list-style-type: none;
     display: flex;
     gap: 40px;
-    font-family: var(--font-family);
     font-weight: 600;
-    color: var(--theme-blue);
     text-transform: uppercase;
     font-size: 14px;
 }
@@ -101,6 +106,7 @@ body {
     color: #192647;
     text-decoration: none;
     margin-top: 6px;
+    white-space: nowrap;
 }
 
 /*-------------------------------------------------------------------------*/
@@ -123,10 +129,10 @@ body {
     margin-bottom: 10px;
 }
 
-h1 {
+.hero-title {
     margin-top: 0;
     font-size: 55px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 65px;
     color: #F8F8F8;
     max-width: 600px;
@@ -140,24 +146,28 @@ h1 {
 }
 
 .whatwe-button {
-    background-color: transparent;
-    color: #EFEFEF;
-    border: 1px solid #fafafa;
+    color: white;
+    border: 1px solid #ffffff;
     padding: 15px 22px;
     text-decoration: none;
     border-radius: 25px;
     transition: 0.3s ease;
 }
 
-.whatwe-button:hover {
-    border: 1px solid blue;
-    /* text-decoration:  1px solid blue; */
-    text-decoration: underline overline 1px solid rgb(255, 255, 255);
-}
-
 .whatwe-button1 {
+    color: white;
+    padding: 15px 22px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s ease;
+    /* border: 1px solid #192647; */
     background-color: #192647;
 }
+
+.whatwe-button1:hover {
+    border: 1px solid white;
+}
+
 
 .midparagraph {
     max-height: 610px;
@@ -253,6 +263,8 @@ h1 {
     font-size: 20px;
     color: #696868;
     font-weight: 400;
+    max-width: 740px;
+    margin-top: 30px;
 }
 
 .viewser {
@@ -275,24 +287,31 @@ h1 {
 
 .mediation-main {
     background-color: white;
+    position: relative;
+    height: 730px;
 }
 
 .mediation-inner {
     background-color: #F8F8F8;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 92px;
 }
 
 .left-section {
-    flex: 1;
     padding-right: 20px;
+    width: 50%;
+    position: absolute;
+    left: 0%;
+    background-color: #F8F8F8;
+    height: 100%;
+    top: 0%;
+    padding: 80px;
 }
 
 .mediation-text {
     align-items: center;
-    padding-left: 90px;
 }
 
 .head-text {
@@ -302,25 +321,25 @@ h1 {
 }
 
 .big-textofM {
-    padding-top: 65px;
+    margin-top: 110px;
     font-size: 45px;
     font-weight: 300;
     color: #192647;
-    border-bottom: 1px solid #cbcbcf;
     padding-bottom: 20px;
+    margin-bottom: 45px;
 }
 
 .faq {
-    border-bottom: 1px solid #f5f5f5;
+    border-bottom: 1px solid #bbbbbb;
     padding-top: 10px;
     padding-bottom: 10px;
+        border-top: 1px solid #cbcbcf;
 }
 
 .media-faq {
     font-size: 18px;
     font-weight: 400;
     cursor: pointer;
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -339,10 +358,34 @@ h1 {
     border: 2px solid #fefefe;
     border-radius: 50%;
     padding: 2px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
 }
 
-.right-section img {
-    height: 70%;
+.media-faq-open {
+    display: none;
+    display: block;
+    max-height: 1000px;
+}
+
+.medai-faq-open-span {
+    font-size: 14px;
+    color: #666;
+}
+
+.right-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.right-section{
+    width: 50%;
+    position: absolute;
+    height: 100%;
+    top: 0%;
+    right: 0%;
 }
 
 /*---------------------------------------------------------------------------*/
@@ -437,20 +480,19 @@ h1 {
     background-color: #ECEDED;
 }
 
-.third-party-body {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    text-align: left;
+
+.third-party-text{
+    padding: 120px 80px;
 }
 
 .third-party-para {
     font-size: 45px;
-    font-weight: 300;
-    padding-bottom: 30px;
-    padding-left: 20px;
+    font-weight: lighter;
+    margin-bottom: 26px;
+
 }
 
-.third-party-button {
+.third-party-button{
     font-weight: 500;
     border: 1px solid #192647;
     background-color: #192647;
@@ -458,11 +500,11 @@ h1 {
     text-transform: uppercase;
     font-size: 14px;
     padding: 13px;
-    box-sizing: border-box;
     color: white;
-    margin-left: 20px;
     text-decoration: none;
+    transition: all 0.3s ease-in-out;
 }
+
 
 .third-party-button:hover {
     background-color: white;
@@ -472,7 +514,7 @@ h1 {
 /*-------------------------------------------------------------------------*/
 footer {
     background-color: #192647;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     z-index: -1;
@@ -480,7 +522,7 @@ footer {
 
 .blank-inner {
     height: 300px;
-    position: relative;
+    position: absolute;
     z-index: 5;
     padding-top: 120px;
     padding-bottom: 210px;
@@ -556,3 +598,12 @@ footer {
     font-size: 14px;
     padding-top: 20px;
 }
+
+
+.cards-button,
+.footer-button,
+.third-party-button {
+    cursor: pointer;
+}
+
+
