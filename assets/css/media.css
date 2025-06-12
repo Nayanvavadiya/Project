@@ -1,9 +1,9 @@
 @media (max-width: 1024px) {
-  .header-inside {
+  /* .header-inside {
     flex-direction: column;
     gap: 20px;
     align-items: flex-start;
-  } 
+  }  */
 
   /* .option-list {
     flex-direction: column;
