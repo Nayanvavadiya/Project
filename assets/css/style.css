@@ -42,7 +42,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 39px;
+    /* gap: 39px; */
 }
 
 .header-text {
@@ -108,6 +108,8 @@ body {
     margin-top: 6px;
     white-space: nowrap;
 }
+
+
 
 /*-------------------------------------------------------------------------*/
 .demo-img {
@@ -227,12 +229,12 @@ body {
     background-color: white;
 }
 
-.container {
+/* .container {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 20px;
     width: 100%;
-}
+} */
 
 .second-inner {
     padding-top: 70px;
@@ -281,6 +283,10 @@ body {
 .sub-viewser {
     text-decoration: none;
     color: #192647;
+}
+
+.viewser-img {
+    margin-left: 8px;
 }
 
 /*-----------------------------------------------------------------------------*/
@@ -364,7 +370,6 @@ body {
 }
 
 .media-faq-open {
-    display: none;
     display: block;
     max-height: 1000px;
 }
