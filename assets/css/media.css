@@ -116,9 +116,7 @@
   gap: 10px;
 }
 
-.cards-body {
-  grid-template-columns: 1fr;
-}
+
 
 .mediation-inner {
   flex-direction: column;
@@ -316,6 +314,7 @@
 
 
 
+
 @media (max-width: 376px) {
   .name {
     font-size: 28px;
@@ -347,6 +346,10 @@
 
     .buttons {
       justify-content: center;
+    }
+
+    .mediation-inner{
+      flex-direction: column-reverse;
     }
 }
 
