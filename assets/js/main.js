@@ -6,3 +6,6 @@ document.addEventListener("DOMContentLoaded", function () {
     navMenu.classList.toggle("active");
   });
 });
+
+        var swiper = new Swiper(".mySwiper", {});
+
