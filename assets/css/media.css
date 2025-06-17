@@ -1,5 +1,13 @@
 
-  @media (max-width: 1024px) {
+  @media (min-width: 1025px) {
+
+    .hamburger-icon {
+      display: none;
+    }
+  }
+ 
+ 
+ @media (max-width: 1024px) {
 
     .hamburger-icon {
       display: none;
@@ -13,12 +21,12 @@
 
     .mediation-text {
       padding-top: 130px;
-      padding-bottom: 132px;
+      padding-bottom: 165px;
     }
 
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 960px) {
     .option-list {
       display: none;
       flex-direction: column;
@@ -96,7 +104,7 @@
 
 
     .mediation-text {
-      padding: 95px 30px;
+      padding: 112px 30px;
     }
 
     .cards-body {
@@ -155,19 +163,6 @@
 
 
 
-  @media (min-width: 1025px) {
-    .option-list {
-      display: flex;
-      flex-direction: row;
-      position: static;
-      background: none;
-      box-shadow: none;
-    }
-
-    .hamburger-icon {
-      display: none;
-    }
-  }
 
 
 
