@@ -52,17 +52,6 @@ body {
 
 }
 
-.hero-section {
-    height: 100vh;
-    position: relative;
-    background-image: url(../image/section/Rectangle-661.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* display: flex; */
-    align-items: center;
-}
-
 
 .option-list {
     list-style-type: none;
@@ -94,7 +83,7 @@ body {
 /*-------------------------------------------Header End-----------------------------------------------*/
 
 .first-inner {
-    padding-top: 101px;
+    margin-top: 101px;
 }
 
 .first-main-text {
@@ -163,7 +152,7 @@ body {
 
 .sp-middle-inner {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(2,1fr);
 }
 
 .sp-middle-image{
@@ -251,8 +240,6 @@ body {
 
 .sp-faq-inner {
     margin-top: 169px;
-    margin-left: 296px;
-    margin-right: 296px;
     margin-bottom: 203px;
 }
 
@@ -271,7 +258,7 @@ body {
     padding-top: 40px;
     margin-top: 28px;
     width: 848px;
-
+    color: #192647;
 }
 
 .sp-faq-questions {
@@ -291,6 +278,7 @@ body {
     cursor: pointer;
     justify-content: space-between;
     align-items: center;
+    color: #192647;
 }
 
 .sp-media-icon {
@@ -341,6 +329,7 @@ body {
 .third-party-para {
     font-size: 45px;
     font-weight: lighter;
+    color: #1C2645;
 }
 
 .third-party-button{

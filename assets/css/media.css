@@ -1,7 +1,7 @@
 
  
  
- @media (max-width: 1023px) {
+ @media (max-width: 1024px) {
 
       /* .option-list {
         display: none;
@@ -12,16 +12,30 @@
       cursor: pointer;
     } */
 
+    .mediation-main {
+      height: 730px;
+    }
 
     .left-section {
       width: 50%;
       position: static;
-      padding-right: 20px;
     }
 
-    .mediation-text {
-      padding-top: 130px;
-      padding-bottom: 165px;
+    .sp-faq-inner {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .big-para {
+      width: 415px;
+    }
+
+    .info-pre-head {
+      width: 955px;
+    }
+
+    .doc-and-info-list {
+      width: 355px;
     }
 
   }
@@ -38,16 +52,6 @@
     }
 
 
-    .left-section {
-      width: 50%;
-      position: static;
-      padding-right: 20px;
-    }
-
-    .mediation-text {
-      padding-top: 130px;
-      padding-bottom: 165px;
-    }
   }
 
 
@@ -65,9 +69,9 @@
     }
 
 
-    .left-section {
+    /* .left-section {
       padding-right: 20px;
-    }
+    } */
 
     .head-text {
       font-size: 14px;
@@ -75,7 +79,7 @@
 
 
     .mediation-text {
-      padding: 112px 30px;
+      padding: 60px;
     }
 
     .cards-body {
@@ -133,6 +137,20 @@
     .first-list-para {
       margin-left: auto;
       margin-right: auto;
+    }
+
+
+    .sp-faq-intro-text {
+      width: auto;
+    }
+
+    .sp-faq-inner {
+    margin-top: 83px;
+    margin-bottom: 83px;
+    }
+
+    .sp-faq-questions {
+      margin-top: 40px;
     }
 
   }
@@ -285,9 +303,10 @@
     }
 
     .right-section img {
-      width: 100%;
+      width: calc(100% + 40px);
+      margin-left: -20px;
       height: auto;
-      max-width: 100%;
+      /* max-width: 100%; */
       display: block;
       padding-right: 0px;
     }
@@ -297,7 +316,7 @@
     }
 
     .cards-inner {
-      margin-top: 280px;
+      margin-top: 330px;
     }
 
     .mediation-text {
@@ -319,6 +338,63 @@
     .third-card {
       padding-bottom: 0px;
     }
+
+    .sp-middle-inner {
+      grid-template-columns: repeat(1,1fr);
+    }
+
+    .sp-middle-image {
+      position: static;
+      width: 100%;
+      width: calc(100% + 40px);
+      margin-left: -20px;
+    }
+
+    .sp-middle-text {
+      position: static;
+      width: calc(100% + 40px);
+      margin-left: -20px;
+    }
+
+
+    .sp-middle-text {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .sp-faq-questions {
+      margin-top: 60px;
+    }
+
+    .sp-faq-inner {
+      margin-top: 325px;
+      margin-bottom: 84px;
+    }
+
+    .sp-faq-intro-text {
+      font-size: 40px;
+    }
+
+    .sp-faq-head {
+      opacity: 100%;
+    }
+
+    .first-inner {
+      margin-top: 71px;
+    }
+
+    .sp-middle {
+      margin-top: 88px;
+    }
+
+    .sp-viewser {
+      margin-bottom: 50px;
+    }
+
+    .first-main-text {
+      font-size: 40px;
+    }
+
   }
 
 
@@ -440,3 +516,7 @@
     }
 
   }
+
+
+
+/***/

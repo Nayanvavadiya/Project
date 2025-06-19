@@ -62,6 +62,7 @@ body {
 .heading-span {
     color: #192647;
     font-size: 13px;
+    text-decoration: none;
 }
 
 .hero-section {
@@ -293,7 +294,6 @@ body {
 }
 
 .left-section {
-    padding-right: 20px;
     width: 50%;
     position: absolute;
     left: 0%;
@@ -305,8 +305,7 @@ body {
 
 .mediation-text {
     align-items: center;
-    padding-left: 90px;
-    padding-top: 70px;
+    padding: 80px;
 }
 
 .head-text {
@@ -321,7 +320,7 @@ body {
     font-weight: 300;
     color: #192647;
     padding-bottom: 20px;
-
+    line-height: 55px;
 }
 
 .faq {
@@ -346,7 +345,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    line-height: 30px;
 }
 
 .media-icon {
@@ -361,8 +360,10 @@ body {
 }
 
 .medai-faq-open-span {
-    font-size: 14px;
+    font-size: 16px;
     color: #666;
+    opacity: 75%;
+    line-height: 26px;
 }
 
 .right-section img{
@@ -427,7 +428,6 @@ body {
 
 .cards {
     border: 1px solid #EFEFEF;
-    padding-bottom: 20px;
     width: 100%;
 }
 
@@ -436,8 +436,7 @@ body {
 }
 
 .card-text {
-    padding-top: 25px;
-    padding-left: 35px;
+    padding: 25px;
 }
 
 .card-text-head {
