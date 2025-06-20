@@ -31,11 +31,15 @@
     }
 
     .info-pre-head {
-      width: 955px;
+      width: 910px;
     }
 
     .doc-and-info-list {
       width: 355px;
+    }
+
+    .tp-middle-text {
+      padding-top: 40px;
     }
 
   }
@@ -153,6 +157,35 @@
       margin-top: 40px;
     }
 
+    .info-pre-head {
+      width: 664px;
+    } 
+
+    .para-data {
+      gap: 48px;
+      padding-top: 80px;
+    }
+
+    .big-para {
+      width: 285px;
+    } 
+
+    .doc-and-info-list {
+      width: 296px;
+    }
+
+    .tp-middle-main {
+      width: 265px;
+    }
+
+    .tp-middle {
+      height: 810px;
+    }    
+
+    .info-pre-inner {
+      padding-top: 172px;
+    }
+ 
   }
 
 
@@ -303,8 +336,7 @@
     }
 
     .right-section img {
-      width: calc(100% + 40px);
-      margin-left: -20px;
+      width: 100%;
       height: auto;
       /* max-width: 100%; */
       display: block;
@@ -320,7 +352,7 @@
     }
 
     .mediation-text {
-      padding: 65px 0px;
+      padding: 65px 36px;
     }
 
     .third-party-para {
@@ -395,6 +427,52 @@
       font-size: 40px;
     }
 
+    .para-data {
+      display: block;
+      padding-top: 10px;
+    }
+
+    .doc-and-info {
+      padding-top: 61px;
+    }
+
+    .info-pre-inner {
+      padding-left: 36px;
+      padding-top: 636px  ;
+    }
+
+    .info-pre-head {
+      font-size: 35px;
+      width: 336px;
+      padding-top: 71px;
+    }
+
+    .tp-mediation-inner {
+      flex-direction: column-reverse;
+    }
+
+    .tp-middle-image {
+      width: 100%;
+      position: static;
+      width: calc(100% + 40px);
+      margin-left: -20px;
+    }
+
+    .tp-middle-text {
+      width: 100%;
+      position: static;
+      width: calc(100% + 40px);
+      margin-left: -20px;
+    }
+    
+    .tp-middle-inner {
+      display: block;
+    }
+
+    .tp-middle{
+      height: 1416px;
+    }
+
   }
 
 
@@ -443,6 +521,16 @@
     .cards-body {
       padding-top: 0px;
     }
+
+    .info-pre-head {
+      width: 303px;
+    }
+
+    .tp-middle-text {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
   }
 
   @media (max-width: 320px) {
@@ -499,7 +587,7 @@
     }
 
     .mediation-text {
-      padding: 30px 0px;
+      padding: 30px 20px;
     }
 
     .cards-inner {
@@ -513,6 +601,22 @@
 
     .welcome-text {
       line-height: 20px;
+    }
+
+    .info-pre-head {
+      width: 250px;
+    }
+
+    .big-para {
+        width: 248px;
+    }
+
+    .tp-middle-main {
+     width: 207px;
+    }
+
+    .doc-and-info-list {
+      width: 234px;
     }
 
   }
